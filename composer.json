@@ -1,6 +1,6 @@
 {
     "name": "hastoneetten/omnipay-monetico",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Monetico driver for the Omnipay PHP payment processing library",
     "type": "library",
     "keywords": [
