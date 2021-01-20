@@ -1,5 +1,5 @@
 {
-    "name": "dansmaculotte/omnipay-monetico",
+    "name": "hastoneetten/omnipay-monetico",
     "version": "1.0.0",
     "description": "Monetico driver for the Omnipay PHP payment processing library",
     "type": "library",
@@ -16,6 +16,12 @@
             "email": "gael@dansmaculotte.fr"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/HastoneEtTen/monetico-php.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Omnipay\\Monetico\\": "src/"
@@ -28,7 +34,7 @@
     },
     "require": {
         "php": "^7.2",
-        "dansmaculotte/monetico-php": "^2.0",
+        "hastoneetten/monetico-php": "^2.0",
         "omnipay/common": "^3.0"
     },
     "require-dev": {
